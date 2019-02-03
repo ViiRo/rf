@@ -386,7 +386,7 @@ client.on('ready', () => {
 
 client.on('ready',async () => {
  
-joinVoiceChannel( client.channels.get("541283631176482837"), client.guilds.get("541250969409945620") );
+joinVoiceChannel( client.channels.get("541282449360027649"), client.guilds.get("541250969409945620") );
  
 function joinVoiceChannel(channel, guild) {
 if(channel.type !== 'voice') return console.log(" # Error. - \"The channel type isn't a voice one\"");
